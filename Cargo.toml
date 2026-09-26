@@ -1,0 +1,14 @@
+[package]
+name = "CWST"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+wgpu = "0.20"
+winit = "0.29"
+sysinfo = "0.30"
+nvml-wrapper = "0.10"
+pollster = "0.3"
+bytemuck = { version = "1.16", features = ["derive"] }
+image = { version = "0.25", default-features = false, features = ["png"] }
+memmap2 = "0.9"
